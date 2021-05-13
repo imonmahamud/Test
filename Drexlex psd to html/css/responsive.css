@@ -1,0 +1,78 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/*lg Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.main-menu ul li {
+	margin-right: 32px;
+}
+.footer-menu ul li {
+	margin-right: 30px;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.slider-height {
+	min-height: 430px;
+}
+.slider-content {
+	padding-left: 10px;
+}
+.product-details-area .product-content{
+	margin-top: 30px
+}
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.slider-height {
+	min-height: 430px;
+}
+.slider-content {
+	padding-left: 10px;
+}
+.subscribe-form form input {
+	width: 100%;
+	margin-bottom: 15px;
+	float: none;
+}
+.subscribe-btn {
+	float: none;
+}
+.product-details-area .product-content{
+	margin-top: 30px
+}
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.slider-height {
+	min-height: 430px;
+}
+.slider-content {
+	padding-left: 10px;
+}
+.footer-menu ul li {
+	margin-right: 25px;
+}
+.product-img a img {
+	width: 100%;
+}
+.product-action-part {
+	margin-bottom: 30px;
+}
+.product-details-area .product-content{
+	margin-top: 30px
+}
+ 
+}
